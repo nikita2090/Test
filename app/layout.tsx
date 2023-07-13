@@ -16,7 +16,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     const [count, setCount] = useState(0);
-
+    const [a, setA] = useState('');
     useEffect(() => {
         if (count === 0) {
             setCount(10);
